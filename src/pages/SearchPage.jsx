@@ -102,6 +102,7 @@ function SearchPage() {
                             <a
                                 className="searchPage__resultTitle"
                                 href={item.link}
+                                target="__blank"
                             >
                                 <h2>{item.title}</h2>
                             </a>
